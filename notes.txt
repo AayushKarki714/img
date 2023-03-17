@@ -1,0 +1,5 @@
+Use background-image if your image is not part of the page’s content.
+Use object-fit if you don’t care about IE.
+The padded container technique, used by Netflix, works everywhere.
+In most cases, just add height: auto; in your CSS.
+If you need fast load times, use srcset to load smaller images on mobile.
