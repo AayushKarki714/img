@@ -1,10 +1,6 @@
-/* only use these for non conent images */
-
 .myImg {
   width: 400px;
   height: 500px;
-  background-color: red;
-  background-image: url("https://images.unsplash.com/photo-1670272506152-6f2703532cd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
+  /* also can use contain if needed */
 }
