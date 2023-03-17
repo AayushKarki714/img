@@ -1,6 +1,15 @@
+.wrapper {
+  position: relative;
+  /* padding-top: 56.25%; 16:9 Aspect Ration */
+  aspect-ratio: 1 / 1;
+  background-color: pink;
+  overflow: hidden;
+}
+
 .myImg {
-  width: 400px;
-  height: 500px;
-  object-fit: cover;
-  /* also can use contain if needed */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
